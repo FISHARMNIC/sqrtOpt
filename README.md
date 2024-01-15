@@ -2,7 +2,7 @@
 An optimizer for my own square root formula
 
 ```math
-\frac{x + (H(x) + \frac{x}{20 + \frac{x}{n}})^{2}}{2(H(x)+\frac{x}{20+\frac{x}{n}})}
+\sqrt(x) \approx \frac{x + (H(x) + \frac{x}{20 + \frac{x}{n}})^{2}}{2(H(x)+\frac{x}{20+\frac{x}{n}})}
 ```
 - Where `H` is the Harmonic number of `x`
 - Smaller numbers tend to be more accurate with a higher `n`
